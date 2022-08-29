@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "joestombs",
+  "version": "${version}",
+  "name": "JoesTombs",
+  "description": "Just Another One of Those TombStone Mods",
+  "authors": [
+    "0xJoeMama"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.joemama.tomb.joestombs.client.JoesTombsClient"
+    ],
+    "main": [
+      "io.github.joemama.tomb.joestombs.JoesTombs"
+    ]
+  },
+  "mixins": [
+    "joestombs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
